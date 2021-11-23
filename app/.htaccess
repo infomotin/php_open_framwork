@@ -1,0 +1,4 @@
+#if Options +Indexes thar are all access file 
+#Options +Indexes 
+
+Options -Indexes
