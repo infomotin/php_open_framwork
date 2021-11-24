@@ -2,12 +2,12 @@
 
 class Pages{
     public function __construct(){
-        echo 'Deafuld';
+        
     }
-    public function home(){
-        echo 'Home page';
+    public function index(){
+        echo 'Hello from the index method';
     }
-    public function about(){
-        echo 'About page';
+    public function about($id){
+        echo "About page with id: {$id}";
     }
 }
